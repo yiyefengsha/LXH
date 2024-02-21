@@ -69,6 +69,7 @@
 			}
 		},
 		{"key":"Wogg","name":"玩偶┃PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://wogg.xyz/$$$null$$$1$$$./lib/wogg.json"},
+		{"key":"Wobg","name":"玩偶┃BG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"},
 	        {
                   "key": "玩偶哥哥FS",
                   "name": "玩偶┃FS",
@@ -100,7 +101,7 @@
                  "searchable": 1,
                  "quickSearch": 1,
                  "filterable": 1,
-                 "ext": "./lib/玩偶哥哥.json"
+                 "ext": "./lib/xyq/玩偶哥哥.json"
                 },
                 {
                  "key": "csp_XYQHikerAL_玩偶妹妹",
@@ -111,10 +112,42 @@
                  "searchable": 1,
                  "quickSearch": 1,
                  "filterable": 1,
-                 "ext": "./lib/玩偶妹妹.json"
+                 "ext": "./lib/xyq/玩偶妹妹.json"
+                },
+		{
+                 "key": "wogg_HCCX",
+                 "name": "玩偶┃HC",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+		 "jar":"./jar/HeChengChaXiu.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 0,
+                 "ext": "./lib/hccx/玩偶哥哥.json"
+                },
+                {
+                 "key": "wwgg_HCCX",
+                 "name": "玩偶┃CX",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+		 "jar":"./jar/HeChengChaXiu.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 0,
+                 "ext": "./lib/hccx/玩我哥哥.json"
+                },
+                {
+                 "key": "yscal_HCCX",
+                 "name": "阿狸┃HX",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+		 "jar":"./jar/HeChengChaXiu.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 0,
+                 "ext": "./lib/hccx/运输阿里.json"
                 },
 		{"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
-		{"key":"Wobg","name":"玩偶┃BG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"},
 		{"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
 		{"key":"Hdhive","name":"阿狸┃YC","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$null$$$1"},
 		{"key":"Ppxzy","name":"皮皮虾|网盘","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$null$$$1"},
