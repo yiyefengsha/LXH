@@ -69,6 +69,50 @@
 			}
 		},
 		{"key":"Wogg","name":"玩偶┃PG","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://wogg.xyz/$$$null$$$1$$$./lib/wogg.json"},
+	        {
+                  "key": "玩偶哥哥FS",
+                  "name": "玩偶┃FS",
+                  "type": 3,
+                  "api": "csp_WoGG",
+		  "jar":"./jar/fan.txt",
+                  "searchable": 1,
+                  "quickSearch": 1,
+                  "changeable": 0,
+                  "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+                },
+		{
+                  "key": "玩偶哥哥XM",
+                  "name": "玩偶┃XM",
+                  "type": 3,
+                  "api": "csp_WoGG",
+		  "jar":"./jar/fan.txt",
+                  "searchable": 1,
+                  "quickSearch": 1,
+                  "changeable": 0,
+                  "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+                },
+		{
+                 "key": "csp_XYQHikerAL_玩偶哥哥",
+                 "name": "玩偶┃GG",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+		 "jar":"./jar/custom_spider.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 1,
+                 "ext": "./lib/玩偶哥哥.json"
+                },
+                {
+                 "key": "csp_XYQHikerAL_玩偶妹妹",
+                 "name": "玩偶┃MM",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+		 "jar":"./jar/custom_spider.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 1,
+                 "ext": "./lib/玩偶妹妹.json"
+                },
 		{"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
 		{"key":"Wobg","name":"玩偶┃BG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"},
 		{"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
