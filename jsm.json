@@ -114,6 +114,28 @@
                  "filterable": 1,
                  "ext": "./lib/xyq/玩偶妹妹.json"
                 },
+	        {
+                 "key": "玩偶哥哥KX",
+                 "name": "玩偶┃KX",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+		 "jar":"./jar/ttkx.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 1,
+                 "ext": "./lib/ttkx/玩偶哥哥.json"
+                },
+	        {
+                 "key": "玩我哥哥KX",
+                 "name": "玩偶┃WO",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+		 "jar":"./jar/ttkx.jar",
+                 "searchable": 1,
+                 "quickSearch": 1，
+		 "filterable": 1,
+                 "ext": "./lib/ttkx/玩我哥哥.json"
+		}， 
 		{
                  "key": "wogg_HCCX",
                  "name": "玩偶┃HC",
@@ -136,6 +158,17 @@
                  "filterable": 0,
                  "ext": "./lib/hccx/玩我哥哥.json"
                 },
+	        {
+                 "key": "玩偶运输车",
+                 "name": "阿狸┃TK",
+                 "type": 3,
+                 "api": "csp_XYQHikerAL",
+                 "jar":"./jar/ttkx.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 1,
+                 "ext": "./lib/ttkx/玩偶运输车.json"
+                },
                 {
                  "key": "yscal_HCCX",
                  "name": "阿狸┃HX",
@@ -146,6 +179,28 @@
                  "quickSearch": 1,
                  "filterable": 0,
                  "ext": "./lib/hccx/运输阿里.json"
+                },
+		{
+                 "key": "开心HK影视",
+                 "name": "自营┃TT",
+                 "type": 3,
+                 "api": "csp_XBPQ",
+                 "jar":"./jar/ttkx.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 1,
+                 "ext": "./lib/ttkx/开心HK影视.json"
+                },
+                {
+                 "key": "开心影视",
+                 "name": "自营┃KX",
+                 "type": 3,
+                 "api": "csp_XBPQ",
+                 "jar":"./jar/ttkx.jar",
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "filterable": 1,
+                 "ext": "./lib/ttkx/开心影视.json"
                 },
 		{"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
 		{"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
