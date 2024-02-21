@@ -158,7 +158,8 @@
                  "filterable": 0,
                  "ext": "./lib/hccx/玩我哥哥.json"
                 },
-	        {
+	      {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
+	      {
                  "key": "玩偶运输车",
                  "name": "阿狸┃TK",
                  "type": 3,
@@ -180,7 +181,46 @@
                  "filterable": 0,
                  "ext": "./lib/hccx/运输阿里.json"
                 },
+              {
+               "key": "Yingshiche",
+               "name": "阿狸┃WX",
+               "type": 3,
+               "api": "csp_Yingshiche",
+               "searchable": 1,
+               "changeable": 0,
+               "jar":"./jar/wx.jar"
+              },
+	        {"key":"Hdhive","name":"阿狸┃YC","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$null$$$1"},
 		{
+            "key": "Wodoudou",
+            "name": "阿狸┃TD",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$.lib/xyq/玩偶哥哥.json"
+               },
+		{
+               "key": "Yingtantv",
+               "name": "自营┃YT",
+               "type": 3,
+               "api": "csp_Yingtantv",
+               "searchable": 1,
+               "changeable": 0,
+               "jar":"./jar/wx.jar"
+              },
+		{
+                 "key": "Buleitv",
+                 "name": "自营┃BL",
+                 "type": 3,
+                 "api": "csp_Buleitv",
+                 "searchable": 1,
+                 "changeable": 0,
+                 "jar":"./jar/wx.jar"
+               },
+	      	{
                  "key": "开心HK影视",
                  "name": "自营┃TT",
                  "type": 3,
@@ -202,9 +242,17 @@
                  "filterable": 1,
                  "ext": "./lib/ttkx/开心影视.json"
                 },
-		{"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
+               {
+                "key": "Zhuiyitv",
+                "name": "自营┃ZY",
+                "type": 3,
+                "api": "csp_Zhuiyitv",
+                "searchable": 1,
+                "changeable": 0,
+                "jar":"./jar/wx.jar"
+              },
+            
 		{"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
-		{"key":"Hdhive","name":"阿狸┃YC","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$null$$$1"},
 		{"key":"Ppxzy","name":"皮皮虾|网盘","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$null$$$1"},
 		{"key":"校长影视","name":"校长影视|网盘","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"},
 		{"key":"团长资源","name":"团长资源|网盘","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"./lib/tokenm.json$$$null$$$1"},
