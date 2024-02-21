@@ -125,17 +125,17 @@
                  "filterable": 1,
                  "ext": "./lib/ttkx/玩偶哥哥.json"
                 },
-	        {
-                 "key": "玩我哥哥KX",
+		{
+                 "key": "玩偶哥哥KX",
                  "name": "玩偶┃WO",
                  "type": 3,
                  "api": "csp_XYQHikerAL",
 		 "jar":"./jar/ttkx.jar",
                  "searchable": 1,
-                 "quickSearch": 1，
-		 "filterable": 1,
+                 "quickSearch": 1,
+                 "filterable": 1,
                  "ext": "./lib/ttkx/玩我哥哥.json"
-		}，
+                },
 		{
                  "key": "wogg_HCCX",
                  "name": "玩偶┃HC",
