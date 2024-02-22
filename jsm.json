@@ -219,6 +219,7 @@
                  "filterable": 0,
                  "ext": "./lib/hccx/运输阿里.json"
                 },
+		{"key":"阿里云集合外置","name":"阿狸┃ZX","type":3,"api":"csp_阿里云集合","searchable":1,"filterable":0,"switchable":0,"changeable":0,"timeout":60,"ext":"./lib/阿里集合.json;./lib/tokenm.json","jar":"./jar/zx.jar"},
 		{
                "key": "Yingtantv",
                "name": "自营┃YT",
