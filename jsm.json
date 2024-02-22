@@ -170,10 +170,10 @@
                  "filterable": 0,
                  "ext": "./lib/hccx/玩我哥哥.json"
 	        },	
-	        {"key":"️玩偶歌","name":"玩偶┃OU","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/wou.json"},
-                {"key":"️玩偶弟","name":"玩偶┃OD","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/wod.json"},
-                {"key":"️玩偶姐","name":"玩偶┃OJ","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/woj.json"},
-                {"key":"️玩偶妹","name":"玩偶┃OM","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/wom.json"},
+	        {"key":"️玩偶歌","name":"玩偶┃OU","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wou.json"},
+                {"key":"️玩偶弟","name":"玩偶┃OD","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wod.json"},
+                {"key":"️玩偶姐","name":"玩偶┃OJ","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/woj.json"},
+                {"key":"️玩偶妹","name":"玩偶┃OM","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wom.json"},
                           
 	        {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
 	     {"key":"Hdhive","name":"阿狸┃YC","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$null$$$1"},
@@ -701,7 +701,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
-    }],
+    }]，
 		"lives":[
 			{
 				"name": "live.ipv6",
