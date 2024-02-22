@@ -2,8 +2,8 @@
 	"spider":"./pg.jar",
 	"sites":[
 		{
-			"key": "豆瓣",
-			"name": "豆瓣",
+			"key": "DB",
+			"name": "🌎豆瓣|公众号：乐享汇fans免费分享持续更新，更多详情见公众号文章",
 			"type": 3,
 			"api": "csp_Douban",
 			"searchable": 0,
@@ -136,6 +136,18 @@
                  "filterable": 1,
                  "ext": "./lib/ttkx/玩我哥哥.json"
                 },
+		{"key":"️玩偶哥","name":"玩偶┃OG","type":3,"api":"csp_XYQHikerAL","jar":"./jar/og.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wog.json"},
+		{
+                 "key": "csp_Panda_玩偶哥哥",
+                 "name": "玩偶┃FM",
+                 "api": "csp_Wogg",
+		 "jar":"./jar/PandaQ240220.jar",
+                 "type": 3,
+                 "searchable": 1,
+                 "quickSearch": 1,
+                 "changeable": 0,
+                 "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+                },
 		{
                  "key": "wogg_HCCX",
                  "name": "玩偶┃HC",
@@ -147,18 +159,45 @@
                  "filterable": 0,
                  "ext": "./lib/hccx/玩偶哥哥.json"
                 },
-                {
+		{
                  "key": "wwgg_HCCX",
                  "name": "玩偶┃CX",
                  "type": 3,
                  "api": "csp_XYQHikerAL",
-		 "jar":"./jar/HeChengChaXiu.jar",
+	         "jar":"./jar/HeChengChaXiu.jar",
                  "searchable": 1,
                  "quickSearch": 1,
                  "filterable": 0,
                  "ext": "./lib/hccx/玩我哥哥.json"
-                },
-	        {
+	        },	
+	        {"key":"️玩偶歌","name":"阿狸┃OU","type":3,"api":"csp_XYQHikerAL","jar":"./jar/og.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wou.json"},
+                {"key":"️玩偶弟","name":"阿狸┃OD","type":3,"api":"csp_XYQHikerAL","jar":"./jar/og.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wod.json"},
+                {"key":"️玩偶姐","name":"阿狸┃OJ","type":3,"api":"csp_XYQHikerAL","jar":"./jar/og.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/woj.json"},
+                {"key":"️玩偶妹","name":"阿狸┃OM","type":3,"api":"csp_XYQHikerAL","jar":"./jar/og.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wom.json"},
+                          
+	        {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
+	     {"key":"Hdhive","name":"阿狸┃YC","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$null$$$1"},
+	    {
+            "key": "Wodoudou",
+            "name": "阿狸┃TD",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$.lib/xyq/玩偶哥哥.json"
+               },
+	       {
+               "key": "Yingshiche",
+               "name": "阿狸┃WX",
+               "type": 3,
+               "api": "csp_Yingshiche",
+               "searchable": 1,
+               "changeable": 0,
+               "jar":"./jar/wx.jar"
+              },
+		{
                  "key": "玩偶运输车",
                  "name": "阿狸┃TK",
                  "type": 3,
@@ -181,6 +220,24 @@
                  "ext": "./lib/hccx/运输阿里.json"
                 },
 		{
+               "key": "Yingtantv",
+               "name": "自营┃YT",
+               "type": 3,
+               "api": "csp_Yingtantv",
+               "searchable": 1,
+               "changeable": 0,
+               "jar":"./jar/wx.jar"
+              },
+		{
+                 "key": "Buleitv",
+                 "name": "自营┃BL",
+                 "type": 3,
+                 "api": "csp_Buleitv",
+                 "searchable": 1,
+                 "changeable": 0,
+                 "jar":"./jar/wx.jar"
+               },
+	      	{
                  "key": "开心HK影视",
                  "name": "自营┃TT",
                  "type": 3,
@@ -202,9 +259,17 @@
                  "filterable": 1,
                  "ext": "./lib/ttkx/开心影视.json"
                 },
-		{"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
+               {
+                "key": "Zhuiyitv",
+                "name": "自营┃ZY",
+                "type": 3,
+                "api": "csp_Zhuiyitv",
+                "searchable": 1,
+                "changeable": 0,
+                "jar":"./jar/wx.jar"
+              },
+            
 		{"key":"Pan99","name":"盘99|网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"},
-		{"key":"Hdhive","name":"阿狸┃YC","type":3,"api":"csp_Hdhive","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$null$$$1"},
 		{"key":"Ppxzy","name":"皮皮虾|网盘","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$null$$$1"},
 		{"key":"校长影视","name":"校长影视|网盘","type":3,"api":"csp_XiaoZhang", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"},
 		{"key":"团长资源","name":"团长资源|网盘","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"./lib/tokenm.json$$$null$$$1"},
@@ -223,7 +288,6 @@
 		{"key":"Qianfan","name":"千帆|网盘","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt"},
 		{"key":"YunSo","name":"小云搜索|网盘","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json"},
 		{"key":"YunPanOne","name":"云盘资源|网盘","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json"},
-		{"key":"Yingtantv","name":"影探|直连","type":3,"api":"csp_Yingtantv","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/yt.json$$$1"},
 		{
 			"key": "NanGua",
 			"name": "南瓜|弹幕",
@@ -601,7 +665,44 @@
 			"searchable": 0,
 			"changeable": 0,
 			"ext": "https://fm.t4tv.hz.cz/json/market.json"
-		}],
+		},
+		{
+      "key": "cc1",
+      "name": "🍀🍁关注公众号",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "cc2",
+      "name": "『乐享汇fans』",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "cc3",
+      "name": "『乐享生活fans』",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "cc4",
+      "name": "02.22维护更新🍁🍀",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+    ],
 		"lives":[
 			{
 				"name": "live.ipv6",
