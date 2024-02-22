@@ -701,7 +701,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
-    }],
+    }
+    ],
 		"lives":[
 			{
 				"name": "live.ipv6",
