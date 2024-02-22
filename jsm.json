@@ -136,7 +136,7 @@
                  "filterable": 1,
                  "ext": "./lib/ttkx/玩我哥哥.json"
                 },
-		{"key":"️玩偶哥","name":"玩偶┃OG","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php?id=ou;md5;e49e0236ea7733742ad1100da0e6a2a5","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wog.json"},
+		{"key":"️玩偶哥","name":"玩偶┃OG","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wog.json"},
 		{
                  "key": "wogg_HCCX",
                  "name": "玩偶┃HC",
@@ -159,10 +159,10 @@
                  "filterable": 0,
                  "ext": "./lib/hccx/玩我哥哥.json"
                 },
-		{"key":"️玩偶弟","name":"阿狸┃OD","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php?id=ou;md5;e49e0236ea7733742ad1100da0e6a2a5","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wod.json"},
-                {"key":"️玩偶姐","name":"阿狸┃OJ","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php?id=ou;md5;e49e0236ea7733742ad1100da0e6a2a5","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/woj.json"},
-                {"key":"️玩偶妹","name":"阿狸┃OM","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php?id=ou;md5;e49e0236ea7733742ad1100da0e6a2a5","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wom.json"},
-                {"key":"️玩偶歌","name":"阿狸┃OU","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php?id=ou;md5;e49e0236ea7733742ad1100da0e6a2a5","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wou.json"},
+		{"key":"️玩偶弟","name":"阿狸┃OD","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wod.json"},
+                {"key":"️玩偶姐","name":"阿狸┃OJ","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/woj.json"},
+                {"key":"️玩偶妹","name":"阿狸┃OM","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wom.json"},
+                {"key":"️玩偶歌","name":"阿狸┃OU","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wou.json"},
 	      {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
 	      {
                  "key": "玩偶运输车",
