@@ -138,6 +138,18 @@
                 },
 		{"key":"️玩偶哥","name":"玩偶┃OG","type":3,"api":"csp_XYQHikerAL","jar":"./jar/jar.php","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/og/wog.json"},
 		{
+                 "key": "csp_Panda_玩偶哥哥",
+                 "name": "玩偶┃FM",
+                 "api": "csp_Wogg",
+		 "jar":"./jar/PandaQ240220.jar",
+                 "type": 3,
+                 "searchable": 1,
+                 "playerType": 2,
+                 "timeout": 30,
+                 "changeable": 0,
+                 "ext": "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+                },
+		{
                  "key": "wogg_HCCX",
                  "name": "玩偶┃HC",
                  "type": 3,
