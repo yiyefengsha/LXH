@@ -91,7 +91,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶哥哥.json"
+      "ext": "./lib/xyq/玩偶哥哥.json"
     },
     {
       "key": "csp_XYQHikerAL_玩偶妹妹",
@@ -102,7 +102,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶妹妹.json"
+      "ext": "./lib/xyq/玩偶妹妹.json"
     },
     {
       "key": "玩偶哥哥KX",
@@ -113,7 +113,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶哥哥.json"
+      "ext": "./lib/ttkx/玩偶哥哥.json"
     },
     {
       "key": "玩我哥哥KX",
@@ -124,7 +124,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩我哥哥.json"
+      "ext": "./lib/ttkx/玩我哥哥.json"
     },
     {
       "key": "️玩偶哥",
@@ -135,7 +135,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wog.json"
+      "ext": "./lib/og/wog.json"
     },
     {
       "key": "csp_Panda_玩偶哥哥",
@@ -157,7 +157,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./lib/玩偶哥哥.json"
+      "ext": "./lib/hccx/玩偶哥哥.json"
     },
     {
       "key": "wwgg_HCCX",
@@ -168,7 +168,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./lib/玩我哥哥.json"
+      "ext": "./lib/hccx/玩我哥哥.json"
     },
     {
       "key": "️玩偶歌",
@@ -179,7 +179,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wou.json"
+      "ext": "./lib/og/wou.json"
     },
     {
       "key": "️玩偶弟",
@@ -190,7 +190,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wod.json"
+      "ext": "./lib/og/wod.json"
     },
     {
       "key": "️玩偶姐",
@@ -201,7 +201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/woj.json"
+      "ext": "./lib/og/woj.json"
     },
     {
       "key": "️玩偶妹",
@@ -212,7 +212,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wom.json"
+      "ext": "./lib/og/wom.json"
     },
     {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
     {
@@ -255,7 +255,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶运输车.json"
+      "ext": "./lib/ttkx/玩偶运输车.json"
     },
     {
       "key": "yscal_HCCX",
@@ -266,7 +266,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./lib/运输阿里.json"
+      "ext": "./lib/hccx/运输阿里.json"
     },
      {
       "key": "AliShare",
@@ -420,7 +420,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/开心HK影视.json"
+      "ext": "./lib/ttkx/开心HK影视.json"
     },
     {
       "key": "开心影视",
@@ -431,7 +431,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/开心影视.json"
+      "ext": "./lib/ttkx/开心影视.json"
     },
     {
       "key": "Zhuiyitv",
