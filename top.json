@@ -10,8 +10,8 @@
 //上面链接是针对那些电视端添加仓库失败的个别人员使用
 
 {"urls": [
-{"url": "https://atomgit.com/djgy/top/raw/main/jsm.json","name":"乐享汇fans主力"},
-{"url": "https://atomgit.com/djgy/top/raw/main/jsm1.json","name":"乐享汇fans备用"},
+{"url": "https://atomgit.com/djgy/top/raw/main/jsm.json","name":"乐享汇fans🛫主力"},
+{"url": "https://atomgit.com/djgy/top/raw/main/jsm1.json","name":"乐享汇fans🍵备用"},
 {
       "url": "https://notabug.org/lxhfans/DEMO/raw/master/gz.txt",
       "name": "关注公众号"
