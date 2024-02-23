@@ -65,7 +65,7 @@
       "name": "玩偶┃FS",
       "type": 3,
       "api": "csp_WoGG",
-      "jar": "./lib/fan.txt",
+      "jar": "./jar/fan.txt",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -76,7 +76,7 @@
       "name": "玩偶┃XM",
       "type": 3,
       "api": "csp_WoGG",
-      "jar": "./lib/fan.txt",
+      "jar": "./jar/fan.txt",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -87,61 +87,61 @@
       "name": "玩偶┃GG",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/custom_spider.jar",
+      "jar": "./jar/custom_spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶哥哥.json"
+      "ext": "./lib/xyq/玩偶哥哥.json"
     },
     {
       "key": "csp_XYQHikerAL_玩偶妹妹",
       "name": "玩偶┃MM",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/custom_spider.jar",
+      "jar": "./jar/custom_spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶妹妹.json"
+      "ext": "./lib/xyq/玩偶妹妹.json"
     },
     {
       "key": "玩偶哥哥KX",
       "name": "玩偶┃KX",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/ttkx.jar",
+      "jar": "./jar/ttkx.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶哥哥.json"
+      "ext": "./lib/ttkx/玩偶哥哥.json"
     },
     {
       "key": "玩我哥哥KX",
       "name": "玩偶┃WO",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/ttkx.jar",
+      "jar": "./jar/ttkx.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩我哥哥.json"
+      "ext": "./lib/ttkx/玩我哥哥.json"
     },
     {
       "key": "️玩偶哥",
       "name": "玩偶┃OG",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/og.jar",
+      "jar": "./jar/og.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wog.json"
+      "ext": "./lib/og/wog.json"
     },
     {
       "key": "csp_Panda_玩偶哥哥",
       "name": "玩偶┃FM",
       "api": "csp_Wogg",
-      "jar": "./lib/PandaQ240220.jar",
+      "jar": "./jar/PandaQ240220.jar",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -153,78 +153,68 @@
       "name": "玩偶┃HC",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/HeChengChaXiu.jar",
+      "jar": "./jar/HeChengChaXiu.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./lib/玩偶哥哥.json"
+      "ext": "./lib/hccx/玩偶哥哥.json"
     },
     {
       "key": "wwgg_HCCX",
       "name": "玩偶┃CX",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/HeChengChaXiu.jar",
+      "jar": "./jar/HeChengChaXiu.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./lib/玩我哥哥.json"
+      "ext": "./lib/hccx/玩我哥哥.json"
     },
     {
       "key": "️玩偶歌",
       "name": "阿狸┃OU",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/og.jar",
+      "jar": "./jar/og.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wou.json"
+      "ext": "./lib/og/wou.json"
     },
     {
       "key": "️玩偶弟",
       "name": "阿狸┃OD",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/og.jar",
+      "jar": "./jar/og.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wod.json"
+      "ext": "./lib/og/wod.json"
     },
     {
       "key": "️玩偶姐",
       "name": "阿狸┃OJ",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/og.jar",
+      "jar": "./jar/og.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/woj.json"
+      "ext": "./lib/og/woj.json"
     },
     {
       "key": "️玩偶妹",
       "name": "阿狸┃OM",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/og.jar",
+      "jar": "./jar/og.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wom.json"
+      "ext": "./lib/og/wom.json"
     },
-    {
-      "key": "影视车",
-      "name": "阿狸┃YS",
-      "type": 3,
-      "api": "csp_Wogg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/wogg.json"
-    },
+    {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
     {
       "key": "Hdhive",
       "name": "阿狸┃YC",
@@ -237,16 +227,16 @@
       "ext": "./lib/tokenm.json$$$null$$$1"
     },
     {
-      "key": "Wodoudou",
-      "name": "阿狸┃TD",
-      "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/玩偶哥哥.json"
-    },
+            "key": "Wodoudou",
+            "name": "阿狸┃TD",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$./lib/wogg.json"
+      },
     {
       "key": "Yingshiche",
       "name": "阿狸┃WX",
@@ -254,44 +244,31 @@
       "api": "csp_Yingshiche",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/wx.jar"
+      "jar": "./jar/wx.jar"
     },
     {
       "key": "玩偶运输车",
       "name": "阿狸┃TK",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/ttkx.jar",
+      "jar": "./jar/ttkx.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/玩偶运输车.json"
+      "ext": "./lib/ttkx/玩偶运输车.json"
     },
     {
       "key": "yscal_HCCX",
       "name": "阿狸┃HX",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "./lib/HeChengChaXiu.jar",
+      "jar": "./jar/HeChengChaXiu.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./lib/运输阿里.json"
+      "ext": "./lib/hccx/运输阿里.json"
     },
-    {
-      "key": "阿里云集合外置",
-      "name": "阿狸┃ZX",
-      "type": 3,
-      "api": "csp_阿里云集合",
-      "jar": "./lib/zx.jar",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": "./lib/阿里集合.json;./lib/tokenm.json"
-    },
-    {
+     {
       "key": "AliShare",
       "name": "阿狸┃AS",
       "type": 3,
@@ -302,6 +279,19 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1"
+    },
+    {
+      "key": "阿里云集合外置",
+      "name": "阿狸┃ZX",
+      "type": 3,
+      "api": "csp_阿里云集合",
+      "jar": "./jar/zx.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "changeable": 0,
+      "timeout": 60,
+      "ext": "./lib/阿里集合.json;./lib/tokenm.json"
     },
     {
       "key": "Ppxzy",
@@ -391,7 +381,7 @@
       "api": "csp_Yingtantv",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/wx.jar"
+      "jar": "./jar/wx.jar"
     },
     {
       "key": "Buleitv",
@@ -400,7 +390,7 @@
       "api": "csp_Buleitv",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/wx.jar"
+      "jar": "./jar/wx.jar"
     },
     {
       "key": "快看",
@@ -426,22 +416,22 @@
       "name": "自营┃TT",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./lib/ttkx.jar",
+      "jar": "./jar/ttkx.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/开心HK影视.json"
+      "ext": "./lib/ttkx/开心HK影视.json"
     },
     {
       "key": "开心影视",
       "name": "自营┃KX",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./lib/ttkx.jar",
+      "jar": "./jar/ttkx.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/开心影视.json"
+      "ext": "./lib/ttkx/开心影视.json"
     },
     {
       "key": "Zhuiyitv",
@@ -450,7 +440,7 @@
       "api": "csp_Zhuiyitv",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/wx.jar"
+      "jar": "./jar/wx.jar"
     },
     {
       "key": "賤賤",
@@ -534,10 +524,10 @@
       "quickSearch": 1
     },
   
-    {"key":"drpy_js_奇珍异兽","name":"爱爱┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},   
-    {"key":"drpy_js_优酷","name":"优优┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
-    {"key":"drpy_js_腾云驾雾","name":"腾腾┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
-    {"key":"drpy_js_百忙无果","name":"芒芒┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
+    {"key":"drpy_js_奇珍异兽","name":"爱爱┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/奇珍异兽.js"},   
+    {"key":"drpy_js_优酷","name":"优优┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/优酷.js"},
+    {"key":"drpy_js_腾云驾雾","name":"腾腾┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/腾云驾雾.js"},
+    {"key":"drpy_js_百忙无果","name":"芒芒┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/百忙无果.js"},
     {
       "key": "sohu",
       "name": "搜搜┃(官)",
@@ -547,8 +537,8 @@
       "quickSearch": 1,
       "playUrl": "json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
     },  
-    {"key":"drpy_js_菜狗","name":"狗狗┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
-    {"key":"drpy_js_360影视","name":"360┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
+    {"key":"drpy_js_菜狗","name":"狗狗┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/菜狗.js"},
+    {"key":"drpy_js_360影视","name":"360┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/360影视.js"},
     {
       "key": "bili",
       "name": "B站┃(官)",
@@ -799,7 +789,7 @@
     },
     {
       "key": "cc4",
-      "name": "02.22维护更新🍁🍀",
+      "name": "02.23维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
