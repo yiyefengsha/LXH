@@ -235,7 +235,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./lib/玩偶哥哥.json"
+      "ext": "./lib/wogg.json"
     },
     {
       "key": "Yingshiche",
@@ -538,7 +538,7 @@
       "playUrl": "json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
     },  
     {"key":"drpy_js_菜狗","name":"狗狗┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/菜狗.js"},
-    {"key":"drpy_js_360影视","name":"360┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/影视.js"},
+    {"key":"drpy_js_360影视","name":"360┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/360影视.js"},
     {
       "key": "bili",
       "name": "B站┃(官)",
@@ -789,7 +789,7 @@
     },
     {
       "key": "cc4",
-      "name": "02.22维护更新🍁🍀",
+      "name": "02.23维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
