@@ -693,14 +693,6 @@
       "ext": "./lib/tokenm.json"
     },
     {
-      "key": "UP云搜",
-      "name": "云搜UP┃🍭",
-      "type": 3,
-      "api": "csp_UpYun",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-    {
       "key": "88Pan",
       "name": "八八┃🍭",
       "type": 3,
@@ -720,6 +712,14 @@
       "ext": "./lib/tokenm.json$$$https://dapanso.com$$$null"
     },
     {
+      "key": "混合盘",
+      "name": "混合┃🍭",
+      "type": 3,
+      "api": "csp_HunHePan",
+      "timeout": 30,
+      "ext": "./lib/tokenm.json"
+    },
+    {
       "key": "PikaSo",
       "name": "皮卡┃🍭",
       "type": 3,
@@ -730,11 +730,11 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json$$$https://www.pikaso.top/$$$null"
     },
-    {
-      "key": "混合盘",
-      "name": "混合┃🍭",
+   {
+      "key": "UP云搜",
+      "name": "云搜UP┃🍭",
       "type": 3,
-      "api": "csp_HunHePan",
+      "api": "csp_UpYun",
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
