@@ -568,30 +568,8 @@
         "ratio": 1.1
       }
     },
-    {
-      "key": "QuarkShare",
-      "name": "分享┃KK",
-      "type": 3,
-      "api": "csp_QuarkShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 0,
-      "timeout": 60,
-      "ext": "./lib/quarkshare.txt"
-    },
-    {
-      "key": "ThunderShare",
-      "name": "分享┃XL",
-      "type": 3,
-      "api": "csp_ThunderShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 0,
-      "timeout": 60,
-      "ext": "./lib/thundershare.txt"
-    },
+    {"key":"QuarkShare","name":"分享┃KK","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/quarkshare.txt"},
+		{"key":"ThunderShare","name":"分享┃XL","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/thundershare.txt"},
     {
       "key": "Panta",
       "name": "盘TA┃🍭",
