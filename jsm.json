@@ -564,7 +564,7 @@
     },
        {
       "key": "AliShareEBook",
-      "name": "阿里云盘书籍分享",
+      "name": "分享┃SJ",
       "type": 3,
       "api": "csp_AliShare",
       "searchable": 1,
@@ -580,7 +580,7 @@
     },
     {
       "key": "QuarkShare",
-      "name": "夸克云盘分享",
+      "name": "分享┃KK",
       "type": 3,
       "api": "csp_QuarkShare",
       "searchable": 1,
@@ -592,7 +592,7 @@
     },
     {
       "key": "ThunderShare",
-      "name": "迅雷云盘分享",
+      "name": "分享┃XL",
       "type": 3,
       "api": "csp_ThunderShare",
       "searchable": 1,
@@ -601,6 +601,17 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "./lib/thundershare.txt"
+    },
+    {
+      "key": "Panta",
+      "name": "盘TA┃🍭",
+      "type": 3,
+      "api": "csp_Panta",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
     },
     {
       "key": "易搜",
@@ -758,28 +769,6 @@
       "filterable": 1,
       "timeout": 30,
       "ext": "./lib/tokenm.json"
-    },
-    {
-      "key": "Panta",
-      "name": "盘TA┃🍭",
-      "type": 3,
-      "api": "csp_Panta",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
-    },
-    {
-      "key": "Qianfan",
-      "name": "千帆┃🍭",
-      "type": 3,
-      "api": "csp_Qianfan",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/qianfan.txt"
     },
     {
       "key": "cc1",
