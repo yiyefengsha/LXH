@@ -227,16 +227,16 @@
       "ext": "./lib/tokenm.json$$$null$$$1"
     },
     {
-      "key": "Wodoudou",
-      "name": "阿狸┃TD",
-      "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/wogg.json"
-    },
+            "key": "Wodoudou",
+            "name": "阿狸┃TD",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$./lib/wogg.json"
+      },
     {
       "key": "Yingshiche",
       "name": "阿狸┃WX",
