@@ -4334,11 +4334,11 @@ sheep张艺兴,https://vdse.bdstatic.com/971347deaddd6fdb5ada6e87e4722ece.mp4?au
 
 ㊙频道密码,#genre#
 关注公众号,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgypLV4gUo-ZmUhwc.mp4
-天微科技,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAglZTV4gUo1tiHrgM.mp4
+乐享汇fans,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAglZTV4gUo1tiHrgM.mp4
 获取密码,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgmJbV4gUogpLGkgM.mp4
 
 
- 9+9测试一_8688,#genre#
+测试一,#genre#
 环球电视台,http://zb.xzxwhcb.com:9999/hls/world.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 凤凰香港,http://113.117.74.228:8081/hls/38/index.m3u8
@@ -4382,7 +4382,7 @@ Red Bull TV ,http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.
 
 
 
- 9+9测试二_8688,#genre#
+测试二,#genre#
 韩国002,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239978750464.mp4
 韩国003,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239858729476.mp4
 韩国004,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239755956819.mp4
@@ -4550,7 +4550,7 @@ Red Bull TV ,http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.
 歌团★153,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240389031565.mp4
 太妍19,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240298694512.mp4
 太妍20,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240418087243.mp4
-天微科技,https://gcalic.v.myalicdn.com/gc/ylxs11_1/index.m3u8
+乐享汇fans,https://gcalic.v.myalicdn.com/gc/ylxs11_1/index.m3u8
 太妍21,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240299394846.mp4
 太妍22,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240181409471.mp4
 太妍23,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240182993056.mp4
