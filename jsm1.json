@@ -374,15 +374,7 @@
       "changeable": 1,
       "timeout": 60
     },
-    {
-      "key": "Yingtantv",
-      "name": "自营┃YT",
-      "type": 3,
-      "api": "csp_Yingtantv",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "./jar/wx.jar"
-    },
+    {"key":"Yingtantv","name":"自营┃YT","type":3,"api":"csp_Yingtantv","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"$$$./lib/yt.json$$$1"},
     {
       "key": "Buleitv",
       "name": "自营┃BL",
@@ -433,15 +425,7 @@
       "filterable": 1,
       "ext": "./lib/ttkx/开心影视.json"
     },
-    {
-      "key": "Zhuiyitv",
-      "name": "自营┃ZY",
-      "type": 3,
-      "api": "csp_Zhuiyitv",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "./jar/wx.jar"
-    },
+    {"key":"Zhuiyitv","name":"自营┃ZY","type":3,"api":"csp_Zhuiyitv","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"$$$./lib/yt.json$$$1"},
     {
       "key": "賤賤",
       "name": "自营┃JP",
@@ -552,6 +536,7 @@
         "cookie": ""
       }
     },
+    {"key":"Yscapp","name":"分享┃SC","type":3,"api":"csp_Yscapp","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "playerType":1, "playerType":1, "ext":"1"},
        {
       "key": "AliShareEBook",
       "name": "分享┃SJ",
