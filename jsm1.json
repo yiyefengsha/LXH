@@ -375,6 +375,15 @@
       "timeout": 60
     },
     {
+      "key": "Fangniu4k",
+      "name": "自营┃FN",
+      "type": 3,
+      "api": "csp_Fangniu4k",
+      "jar": "./jar/wx.jar",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
       "key": "宇宙",
       "name": "自营┃YZ",
       "type": 3,
@@ -1114,7 +1123,8 @@
         {"name":"公众号","type":2,"url":"Sequence"},
         {"name":"QQ频道","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
         {"name": "『乐享汇fans』","type": 3,"url": "Web"},
-        {"name": "『乐享生活fans』","type": 1,"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},
+        {"name": "『乐享生活fans』","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
+        {"name": "嘉嘉","type": 1,"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},
         {"name":"彩彩","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
         {"name":"云云","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili"],"header":{"User-Agent":"okhttp/3.12.0"}}},
         {"name":"乐乐","type":1,"url":"http://103.42.31.123:5821/jx/?url="},
