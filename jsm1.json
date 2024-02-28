@@ -291,7 +291,7 @@
       "switchable": 0,
       "changeable": 0,
       "timeout": 60,
-      "ext": "./lib/阿里集合.json"
+      "ext": "./lib/阿里集合.json;./lib/tokenm.json"
     },
     {
       "key": "Ppxzy",
@@ -610,8 +610,8 @@
           }
           ]}
     },
-    {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt"},
-    {
+    {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
+     {
       "key": "Panta",
       "name": "盘TA┃🍭",
       "type": 3,
@@ -622,25 +622,8 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
     },
-    {
-      "key": "易搜",
-      "name": "易搜┃🍭",
-      "type": 3,
-      "api": "csp_YiSo",
-      "timeout": 30,
-      "ext": "./lib/yiso.txt"
-    },
-    {
-      "key": "YunSo",
-      "name": "云搜┃🍭",
-      "type": 3,
-      "api": "csp_YunSo",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
+    {"key":"易搜","name":"易搜┃🍭","type":3,"api":"csp_YiSo","timeout":30, "ext":"./lib/tokenm.json$$$./lib/yiso.txt"},
+    {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1"},
     {
       "key": "盘搜",
       "name": "盘搜┃🍭",
