@@ -12,8 +12,14 @@
       "ext": "./lib/douban.json"
     },
     {
+      "key": "Local",
+      "name": "🎞本地媒体",
+      "type": 3,
+      "api": "csp_Local"
+    },
+    {
       "key": "网盘配置",
-      "name": "配置中心",
+      "name": "📺配置中心",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -21,22 +27,17 @@
       "ext": "./lib/tokenm.json"
     },
     {
-      "key": "Local",
-      "name": "本地媒体",
-      "type": 3,
-      "api": "csp_Local"
-    },
-    {
-      "key": "PikPakShare",
-      "name": "PikPak分享",
-      "type": 3,
-      "api": "csp_PikPakShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 0,
-      "timeout": 60,
-      "ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz"
+            "key": "配置中心OK",
+            "name": "🎬️OK配置中心",
+            "type": 3,
+            "api": "csp_Config",
+            "jar": "./jar/ok.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
     },
     {
       "key": "Wogg",
@@ -82,6 +83,38 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
     },
+     {
+            "key": "玩偶弹幕版OK",
+            "name": "玩偶┃OK",
+            "type": 3,
+            "api": "csp_Wogg",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "wogg": true,
+                "danmu": true
+            },
+            "timeout": 30
+        },
+        {
+            "key": "玩偶表哥弹幕OK",
+            "name": "玩偶┃KO",
+            "type": 3,
+            "api": "csp_Wobg",
+            "jar": "./jar/ok.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 25
+        },
     {
       "key": "csp_XYQHikerAL_玩偶哥哥",
       "name": "玩偶┃GG",
@@ -103,28 +136,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/xyq/玩偶妹妹.json"
-    },
-    {
-      "key": "玩偶哥哥KX",
-      "name": "玩偶┃KX",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "jar": "./jar/ttkx.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/ttkx/玩偶哥哥.json"
-    },
-    {
-      "key": "玩我哥哥KX",
-      "name": "玩偶┃WO",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "jar": "./jar/ttkx.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/ttkx/玩我哥哥.json"
     },
     {
       "key": "️玩偶哥",
@@ -171,6 +182,125 @@
       "ext": "./lib/hccx/玩我哥哥.json"
     },
     {
+      "key": "玩偶哥哥KX",
+      "name": "玩偶┃KX",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "./jar/ttkx.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/ttkx/玩偶哥哥.json"
+    },
+    {
+      "key": "玩我哥哥KX",
+      "name": "玩偶┃WO",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "./jar/ttkx.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/ttkx/玩我哥哥.json"
+    },  
+    {
+            "key": "土豆网盘弹幕OK",
+            "name": "玩偶┃TD",
+            "type": 3,
+            "api": "csp_Wobg",
+            "jar": "./jar/ok.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://aliz.lvdoui.top",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "我哥哥弹幕OK",
+            "name": "玩偶┃OW",
+            "type": 3,
+            "api": "csp_Wobg",
+            "jar": "./jar/ok.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "http://www.ttkx.live",
+                "danmu": true
+            },
+            "timeout": 25
+        },      
+    {
+            "key": "我的阿里OK",
+            "name": "阿狸┃WD",
+            "type": 3,
+            "api": "csp_MyAli",
+            "jar": "./jar/ok.jar",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "阿里合集OK",
+            "name": "阿狸┃HJ",
+            "type": 3,
+            "api": "csp_AliShare",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "share": "file://TV/阿里集合.json"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+      "key": "Hdhive",
+      "name": "阿狸┃YC",
+      "type": 3,
+      "api": "csp_Hdhive",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib/tokenm.json$$$null$$$1"
+        },
+       {
+            "key": "运输车弹幕版OK",
+            "name": "阿狸┃YS",
+            "type": 3,
+            "api": "csp_Wogg",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://www.weixine.link",
+                "danmu": true
+            },
+            "timeout": 25
+      },
+      {
       "key": "️玩偶歌",
       "name": "阿狸┃OU",
       "type": 3,
@@ -214,18 +344,6 @@
       "filterable": 1,
       "ext": "./lib/og/wom.json"
     },
-    {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},
-    {
-      "key": "Hdhive",
-      "name": "阿狸┃YC",
-      "type": 3,
-      "api": "csp_Hdhive",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$null$$$1"
-    },
     {
             "key": "Wodoudou",
             "name": "阿狸┃TD",
@@ -268,31 +386,6 @@
       "filterable": 0,
       "ext": "./lib/hccx/运输阿里.json"
     },
-     {
-      "key": "AliShare",
-      "name": "阿狸┃AS",
-      "type": 3,
-      "api": "csp_AliShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 0,
-      "timeout": 60,
-      "ext": "./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1"
-    },
-    {
-      "key": "阿里云集合外置",
-      "name": "阿狸┃ZX",
-      "type": 3,
-      "api": "csp_阿里云集合",
-      "jar": "./jar/zx.jar",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "changeable": 0,
-      "timeout": 60,
-      "ext": "./lib/阿里集合.json;./lib/tokenm.json"
-    },
     {
       "key": "Ppxzy",
       "name": "夸克┃PP",
@@ -316,16 +409,21 @@
       "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"
     },
     {
-      "key": "团长资源",
-      "name": "夸克┃TZ",
-      "type": 3,
-      "api": "csp_TZFile",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$null$$$1"
-    },
+            "key": "团长弹幕版OK",
+            "name": "夸克┃TZ",
+            "type": 3,
+            "api": "csp_Tzfile",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 25
+        },
     {
       "key": "Libvio",
       "name": "夸克┃LB",
@@ -411,13 +509,18 @@
       "filterable": 1
     },
     {
-      "key": "NanGua",
-      "name": "自营┃NG",
-      "type": 3,
-      "api": "csp_NanGua",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "null$$$1"
+            "key": "南瓜弹幕版OK",
+            "name": "自营┃NG",
+            "type": 3,
+            "api": "csp_Nangua",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
     },
     {
       "key": "开心HK影视",
@@ -551,15 +654,45 @@
         "cookie": ""
       }
     },
-    {"key":"AliShareEBook","name":"分享┃SJ","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/alishare.ebook.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
+     {
+      "key": "AliShare",
+      "name": "分享┃AS",
+      "type": 3,
+      "api": "csp_AliShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1"
+    },
+    {
+      "key": "阿里云集合外置",
+      "name": "分享┃ZX",
+      "type": 3,
+      "api": "csp_阿里云集合",
+      "jar": "./jar/zx.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "changeable": 0,
+      "timeout": 60,
+      "ext": "./lib/阿里集合.json;./lib/tokenm.json"
+    },
     {"key":"QuarkShare","name":"分享┃KK","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/quarkshare.txt"},
 		{"key":"ThunderShare","name":"分享┃XL","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/thundershare.txt"},
-    {"key":"SambaShare","name":"分享┃SS","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/sambashare.txt"},
+    {
+      "key": "PikPakShare",
+      "name": "分享┃PP",
+      "type": 3,
+      "api": "csp_PikPakShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz"
+    },
     {
       "key": "AList",
       "name": "AList",
@@ -611,17 +744,6 @@
           ]}
     },
     {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
-     {
-      "key": "Panta",
-      "name": "盘TA┃🍭",
-      "type": 3,
-      "api": "csp_Panta",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
-    },
     {"key":"易搜","name":"易搜┃🍭","type":3,"api":"csp_YiSo","timeout":30, "ext":"./lib/tokenm.json$$$./lib/yiso.txt"},
     {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1"},
     {
@@ -730,6 +852,17 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
+   {
+      "key": "Panta",
+      "name": "盘TA┃🍭",
+      "type": 3,
+      "api": "csp_Panta",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
+    },
     {
       "key": "drpy_js_愛盤搜",
       "name": "夸克AP┃🍭",
@@ -762,6 +895,173 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
+     {
+            "key": "csp_QkpansoOK",
+            "name": "夸克OK┃🍭",
+            "type": 3,
+            "api": "csp_Qkpanso",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+    {
+            "key": "csp_QuPanSouOK",
+            "name": "🤓趣盘┃🍭",
+            "type": 3,
+            "api": "csp_QuPanSou",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+        {
+            "key": "csp_AiPanSouOK",
+            "name": "🥰爱盘┃🍭",
+            "type": 3,
+            "api": "csp_AiPanSou",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+        {
+            "key": "纸条OK",
+            "name": "🗞纸条┃🍭",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+        {
+            "key": "盘SeOK",
+            "name": "🙀盘寻┃🍭",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+        {
+            "key": "七夜OK",
+            "name": "😾七夜┃🍭",
+            "type": 3,
+            "api": "csp_Dovx",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+         {
+            "key": "找資源OK",
+            "name": "🤠资源┃🍭",
+            "type": 3,
+            "api": "csp_Zhaozy",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+        {
+            "key": "盘搜OK",
+            "name": "🦊盘搜┃🍭",
+            "type": 3,
+            "api": "csp_PanSou",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+        {
+            "key": "易搜OK",
+            "name": "😹易搜┃🍭",
+            "type": 3,
+            "api": "csp_YiSo",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "danmu": true,
+                "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "Up云搜OK",
+            "name": "😻Up搜┃🍭",
+            "type": 3,
+            "api": "csp_Upys",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
+        {
+            "key": "云盘4KOK",
+            "name": "🤖云盘┃🍭",
+            "type": 3,
+            "api": "csp_Yunpan4k",
+            "jar": "./jar/ok.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 15
+        },
     {
       "key": "cc1",
       "name": "🍀🍁关注公众号",
