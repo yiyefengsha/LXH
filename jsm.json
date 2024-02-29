@@ -19,7 +19,7 @@
     },
      {
       "key": "Yinyuetai",
-      "name": "音乐┃MV",
+      "name": "🎦音乐┃MV",
       "type": 3,
       "api": "csp_Yinyuetai",
       "jar": "./jar/wx.jar",
@@ -233,17 +233,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$./lib/wogg.json"
       },
-    {
-      "key": "玩偶运输车",
-      "name": "阿狸┃TK",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "jar": "./jar/ttkx.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/ttkx/玩偶运输车.json"
-    },   
+    {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},  
     {
       "key": "yscal_HCCX",
       "name": "阿狸┃HX",
@@ -363,15 +353,6 @@
       "filterable": 1
     },
     {
-			"key": "NanGua",
-			"name": "自营┃NG",
-			"type": 3,
-			"api": "csp_NanGua",
-			"searchable": 1,
-			"changeable": 1,
-			"ext": "null$$$1"
-		},
-    {
       "key": "开心HK影视",
       "name": "自营┃TT",
       "type": 3,
@@ -393,6 +374,15 @@
       "filterable": 1,
       "ext": "./lib/ttkx/开心影视.json"
     },
+    {
+			"key": "NanGua",
+			"name": "自营┃NG",
+			"type": 3,
+			"api": "csp_NanGua",
+			"searchable": 1,
+			"changeable": 1,
+			"ext": "null$$$1"
+		},
     {
       "key": "賤賤",
       "name": "自营┃JP",
