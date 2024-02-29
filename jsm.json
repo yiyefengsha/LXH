@@ -701,7 +701,7 @@
     },
     {"key":"SambaShare","name":"分享┃SS","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/sambashare.txt"},
 	
-   {"key":"Taohuazu","name":"分享┃TH","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://thze.cc/$$$socks5://192.168.101.1:1080"},
+   {"key":"Taohuazu","name":"分享┃TH","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
  
     {
       "key": "AList",
