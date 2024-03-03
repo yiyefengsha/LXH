@@ -325,23 +325,8 @@
       "searchable": 1,
       "changeable": 0
     },
-    {
-      "key": "宇宙",
-      "name": "自营┃YZ",
-      "type": 3,
-      "api": "csp_LvDou",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "playerType": 1,
-      "ext": {
-        "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebisha855",
-        "danmu": true
-      }
-    },
-    {"key":"Yingtantv","name":"自营┃YT","type":3,"api":"csp_Yingtantv","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"$$$./lib/yt.json$$$1"},
+    {"key":"Moli","name":"自营┃ML","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
+    {"key":"云2","name":"自营┃MY","type":3,"api":"csp_Movie2","jar":"./jar/my.jar","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/ouhaibo1980/tvbox/master/EXT/Movie5"},
     {
       "key": "快看",
       "name": "自营┃KK",
@@ -537,6 +522,17 @@
      "api": "https://155api.com/api.php/provide/vod/"
     },
    {"key":"大地","name":"绿茶┃DD","type":0,"api":"https://dadiapi.com/apple_m3u8.php","playUrl":"https://play.dadiapi.com/watch?url=","searchable":1,"quickSearch":1,"filterable":0},
+   {
+            "key": "csp_xBPQ_NY",
+            "name": " 绿茶┃NY",
+            "type": 3,
+            "api": "csp_xBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./lib/ny.json",
+            "jar": "./jar/Yoursmile2.jar"
+   },
    {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
    {"key":"PikPakShare","name":"PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
 			"style": {
@@ -544,7 +540,6 @@
 				"ratio": 1.1
 			}
 		},
-    {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
     {
       "key": "Panta",
       "name": "盘TA┃🍭",
