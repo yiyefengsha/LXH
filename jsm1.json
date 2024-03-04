@@ -17,15 +17,6 @@
       "type": 3,
       "api": "csp_Local"
     },
-     {
-      "key": "Yinyuetai",
-      "name": "🎦音乐┃MV",
-      "type": 3,
-      "api": "csp_Yinyuetai",
-      "jar": "./jar/wx.jar",
-      "searchable": 1,
-      "changeable": 0
-    },
     {
       "key": "网盘配置",
       "name": "🎬️配置中心",
@@ -35,6 +26,14 @@
       "changeable": 0,
       "ext": "./lib/tokenm.json"
     },
+    {
+			"key": "酷狗",
+			"name": "🎧音乐┃KG",
+			"type": 3,
+			"api": "csp_Kugou",
+			"searchable": 1,
+			"changeable": 0
+		},
     {
       "key": "Wogg",
       "name": "玩偶┃PG",
@@ -506,8 +505,13 @@
 				"ratio": 1.1
 			}
 		},
-   {"key":"Moli","name":"分享┃ML","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"}, 
    {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
+   {"key":"PikPakShare","name":"PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
    {
       "key": "Zhaozy",
       "name": "资源┃🍭",
@@ -712,7 +716,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.04维护更新🍁🍀",
+      "name": "03.05维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
