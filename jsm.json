@@ -35,28 +35,6 @@
 			"changeable": 0
 		},
     {
-      "key": "Wogg",
-      "name": "玩偶┃PG",
-      "type": 3,
-      "api": "csp_Wogg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/wogg.json"
-    },
-    {
-      "key": "Wobg",
-      "name": "玩偶┃BG",
-      "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/wogg.json"
-    },
-    {
       "key": "玩偶哥哥FS",
       "name": "玩偶┃FS",
       "type": 3,
@@ -99,6 +77,28 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/xyq/玩偶妹妹.json"
+    },
+       {
+      "key": "Wogg",
+      "name": "玩偶┃PG",
+      "type": 3,
+      "api": "csp_Wogg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib/wogg.json"
+    },
+    {
+      "key": "Wobg",
+      "name": "玩偶┃BG",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib/wogg.json"
     },
     {
       "key": "️玩偶哥",
