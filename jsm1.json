@@ -736,7 +736,7 @@
     {
       "name": "live.ipv6",
       "type": 0,
-      "url": "./lib/ipv6.m3u",
+      "url": "https://raw.gitmirror.com/lxhfans2024/zby/main/cy.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
