@@ -26,14 +26,7 @@
       "changeable": 0,
       "ext": "./lib/tokenm.json"
     },
-    {
-			"key": "酷狗",
-			"name": "🎧音乐┃KG",
-			"type": 3,
-			"api": "csp_Kugou",
-			"searchable": 1,
-			"changeable": 0
-		},
+    {"key": "配置中心","name": "📺‍OK配置中心","type": 3,"api": "csp_Config","jar": "./jar/ok.jar","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.43}},
     {
       "key": "玩偶哥哥FS",
       "name": "玩偶┃FS",
@@ -111,18 +104,8 @@
       "filterable": 1,
       "ext": "./lib/og/wog.json"
     },
+    {"key": "玩偶","name": "玩偶┃OK","type": 3,"api": "csp_Wogg","jar": "./jar/ok.jar","searchable": 1,"filterable": 1,"changeable": 1,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt","wogg": true},"timeout": 30},
     {
-      "key": "csp_Panda_玩偶哥哥",
-      "name": "玩偶┃FM",
-      "api": "csp_Wogg",
-      "jar": "./jar/PandaQ240220.jar",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
-    },
-     {
       "key": "玩偶哥哥KX",
       "name": "玩偶┃KX",
       "type": 3,
@@ -165,7 +148,11 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./lib/hccx/玩我哥哥.json"
-    },    
+    }, 
+    {"key": "我的阿里","name": "阿狸┃WD","type": 3,"api": "csp_MyAli","jar": "./jar/ok.jar","searchable": 0,"quickSearch": 0,"filterable": 0,"indexs": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt"},"style": {"type": "list"},"timeout": 30},
+    {"key": "阿里合集","name": "阿狸┃HJ","type": 3,"api": "csp_AliShare","jar": "./jar/ok.jar","searchable": 1,"changeable": 0,"filterable": 0,"indexs": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt","share": "file://TV/阿里集合.json"},"style": {"type": "list"},"timeout": 30},
+    {"key": "土豆网盘","name": "阿狸┃TK","type": 3,"api": "csp_Wobg","jar": "./jar/ok.jar","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt","cookie": "http://127.0.0.1:9978/file/tvfan/quark_cookie.txt","site": "https://aliz.lvdoui.top"},"timeout": 25},
+    {"key": "玩偶表哥","name": "阿狸┃BG","type": 3,"api": "csp_Wobg","jar": "./jar/ok.jar","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt","cookie": "http://127.0.0.1:9978/file/tvfan/quark_cookie.txt"},"timeout": 25},   
     {
       "key": "️玩偶歌",
       "name": "阿狸┃OU",
@@ -232,8 +219,8 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$./lib/wogg.json"
       },
-    {"key":"影视车","name":"阿狸┃YS","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/tokenm.json$$$https://www.weixine.net/$$$null$$$1$$$./lib/wogg.json"},  
-    {
+      {"key": "运输车","name": "阿狸┃YS","type": 3,"api": "csp_Wogg","jar": "./jar/ok.jar","searchable": 1,"filterable": 1,"changeable": 1,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt","cookie": "http://127.0.0.1:9978/file/tvfan/quark_cookie.txt","site": "https://www.weixine.link"},"timeout": 25},
+     {
       "key": "yscal_HCCX",
       "name": "阿狸┃HX",
       "type": 3,
@@ -355,15 +342,7 @@
       "filterable": 1,
       "ext": "./lib/ttkx/开心影视.json"
     },
-    {
-			"key": "NanGua",
-			"name": "自营┃NG",
-			"type": 3,
-			"api": "csp_NanGua",
-			"searchable": 1,
-			"changeable": 1,
-			"ext": "null$$$1"
-		},
+    {"key": "南瓜","name": "自营┃NG","type": 3,"api": "csp_Nangua","jar": "./jar/ok.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 10},
     {
       "key": "賤賤",
       "name": "自营┃JP",
@@ -512,17 +491,33 @@
 				"ratio": 1.1
 			}
 		},
-   {
-      "key": "Zhaozy",
-      "name": "资源┃🍭",
+    {
+			"key": "酷狗",
+			"name": "音乐┃KG",
+			"type": 3,
+			"api": "csp_Kugou",
+			"searchable": 1,
+			"changeable": 0
+		},
+    {
+      "key": "Yinyuetai",
+      "name": "音乐┃YYT",
       "type": 3,
-      "api": "csp_Zhaozy",
-      "jar": "./jar/fan.txt",
+      "api": "csp_Yinyuetai",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$zhaoziyuan777$$$qqq111"
+      "jar":"./jar/ktv.jar"
     },
+    {
+      "key": "Iktv",
+      "name": "音乐┃KTV",
+      "type": 3,
+      "api": "csp_Iktv",
+      "searchable": 1,
+      "changeable": 0,
+      "jar":"./jar/ktv.jar"
+    },
+    {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
     {
       "key": "Panta",
       "name": "盘TA┃🍭",
@@ -534,6 +529,7 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
     },
+    {"key":"盘友圈","name":"盘YQ┃🍭","type":3,"api":"csp_Panyq","timeout":60, "ext":"./lib/tokenm.json"},
      {
       "key": "YiSo",
       "name": "易搜┃🍭",
@@ -688,6 +684,28 @@
       "ext": "./lib/tokenm.json"
     },
     {
+      "key": "Zhaozy",
+      "name": "资源┃🍭",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "jar": "./jar/fan.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$zhaoziyuan777$$$qqq111"
+    },
+{"key": "csp_QuPanSou","name": "🤓趣盘┃🍭","type": 3,"api": "csp_QuPanSou","jar": "./jar/ok.jar","searchable": 1,"filterable": 1,"changeable": 0,"ext": {"cookie": "http://127.0.0.1:9978/file/tvfan/quark_cookie.txt"},"timeout": 15},
+{"key": "csp_Qkpanso","name": "🐚夸克PS┃🍭","type": 3,"api": "csp_Qkpanso","jar": "./jar/ok.jar","searchable": 1,"filterable": 1,"changeable": 0,"ext": {"cookie": "http://127.0.0.1:9978/file/tvfan/quark_cookie.txt"},"timeout": 15},
+{"key": "csp_AiPanSou","name": "🥰爱盘┃🍭","type": 3,"api": "csp_AiPanSou","jar": "./jar/ok.jar","searchable": 1,"filterable": 1,"changeable": 0,"ext": {"cookie": "http://127.0.0.1:9978/file/tvfan/quark_cookie.txt"},"timeout": 15},
+{"key": "纸条","name": "🗞纸条┃🍭","type": 3,"api": "csp_XiaoZhiTiao","jar": "./jar/ok.jar","searchable": 1,"filterable": 1,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt"},"timeout": 15},
+{"key": "盘Se","name": "🙀盘Se┃🍭","type": 3,"api": "csp_PanSearch","jar": "./jar/ok.jar","searchable": 1,"filterable": 0,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt"},"timeout": 15},
+{"key": "找資源","name": "🐺资源┃🍭","type": 3,"api": "csp_Zhaozy","jar": "./jar/ok.jar","searchable": 1,"filterable": 0,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt"},"timeout": 15},
+{"key": "七夜","name": "😾七夜┃🍭","type": 3,"api": "csp_Dovx","jar": "./jar/ok.jar","searchable": 1,"filterable": 0,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt"},"timeout": 15},
+{"key": "盘搜","name": "🦊盘搜┃🍭","type": 3,"api": "csp_PanSou","jar": "./jar/ok.jar","searchable": 1,"filterable": 0,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt"},"timeout": 15},
+{"key": "易搜","name": "😹易搜┃🍭","type": 3,"api": "csp_YiSo","jar": "./jar/ok.jar","searchable": 1,"filterable": 0,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt","cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"},"timeout": 15},
+{"key": "Up云搜","name": "😻Up搜┃🍭","type": 3,"api": "csp_Upys","jar": "./jar/ok.jar","searchable": 1,"filterable": 0,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt"},"timeout": 15},
+{"key": "云盘4K","name": "🤖云盘4K┃🍭","type": 3,"api": "csp_Yunpan4k","jar": "./jar/ok.jar","searchable": 1,"filterable": 0,"changeable": 0,"ext": {"token": "http://127.0.0.1:9978/file/tvfan/token.txt","cookie": "http://127.0.0.1:9978/file/tvfan/quark_cookie.txt"},"timeout": 15},
+    {
       "key": "cc1",
       "name": "🍀🍁关注公众号",
       "type": 3,
@@ -716,7 +734,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.05维护更新🍁🍀",
+      "name": "03.06维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -726,7 +744,7 @@
   ],
   "lives": [
      {
-      "name": "直播",
+      "name": "live.m3u",
       "type": 0,
       "playerType": 1,
       "url": "./lib/live.txt",
@@ -734,7 +752,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "live.ipv6",
+      "name": "live.m3u1",
       "type": 0,
       "url": "https://raw.gitmirror.com/lxhfans2024/zby/main/cy.txt",
       "playerType": 1,
@@ -743,9 +761,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "live.ipv6.m3u",
+      "name": "live.m3u2",
       "type": 0,
-      "url": "./lib/ipv6.m3u",
+      "url": "https://raw.gitmirror.com/lxhfans2024/zby/main/mg.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
