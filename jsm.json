@@ -747,7 +747,7 @@
       "name": "live.m3u",
       "type": 0,
       "playerType": 1,
-      "url": "./lib/live.txt",
+      "url": "https://raw.gitmirror.com/lxhfans2024/zby/main/tv.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
