@@ -493,7 +493,7 @@
 		},
     {
 			"key": "酷狗",
-			"name": "音乐┃KG",
+			"name": "🎵音乐KG",
 			"type": 3,
 			"api": "csp_Kugou",
 			"searchable": 1,
@@ -501,21 +501,21 @@
 		},
     {
       "key": "Yinyuetai",
-      "name": "音乐┃YYT",
+      "name": "🎵音悦台MV",
       "type": 3,
       "api": "csp_Yinyuetai",
       "searchable": 1,
       "changeable": 0,
-      "jar":"./jar/ktv.jar"
+      "jar":"./jar/wx.jar"
     },
     {
       "key": "Iktv",
-      "name": "音乐┃KTV",
+      "name": "🎤音乐KTV",
       "type": 3,
       "api": "csp_Iktv",
       "searchable": 1,
       "changeable": 0,
-      "jar":"./jar/ktv.jar"
+      "jar":"./jar/wx.jar"
     },
     {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
     {
@@ -734,7 +734,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.06维护更新🍁🍀",
+      "name": "03.07维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
