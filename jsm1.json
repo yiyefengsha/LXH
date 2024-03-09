@@ -83,17 +83,6 @@
       "ext": "./lib/wogg.json"
     },
     {
-      "key": "Wobg",
-      "name": "玩偶┃BG",
-      "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/wogg.json"
-    },
-    {
       "key": "️玩偶哥",
       "name": "玩偶┃OG",
       "type": 3,
@@ -142,6 +131,17 @@
       "filterable": 1,
       "ext": "./lib/ttkx/玩我哥哥.json"
     }, 
+    {
+      "key": "Wobg",
+      "name": "玩偶┃BG",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib/wogg.json"
+    },
     {
       "key": "wogg_HCCX",
       "name": "玩偶┃HC",
@@ -955,7 +955,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.08维护更新🍁🍀",
+      "name": "03.09维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
