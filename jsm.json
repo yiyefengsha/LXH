@@ -546,6 +546,12 @@
 				"ratio": 1.1
 			}
 		},
+    {"key":"PushShare","name":"分享┃ZY","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
    {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
    {"key":"PikPakShare","name":"PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
 			"style": {
@@ -553,46 +559,31 @@
 				"ratio": 1.1
 			}
 		},
-    {
-			"key": "酷狗",
-			"name": "🎵音乐KG",
+		{
+			"key": "Yinyuetai",
+			"name": "🎵音悦台MV",
 			"type": 3,
-			"api": "csp_Kugou",
+			"api": "csp_Yinyuetai",
 			"searchable": 1,
 			"changeable": 0
 		},
     {
-      "key": "Yinyuetai",
-      "name": "🎵音悦台MV",
-      "type": 3,
-      "api": "csp_Yinyuetai",
-      "searchable": 1,
-      "changeable": 0,
-      "jar":"./jar/wx.jar"
-    },
+			"key": "Iktv",
+			"name": "🎤音乐KTV",
+			"type": 3,
+			"api": "csp_Iktv",
+			"searchable": 1,
+			"changeable": 0
+		},
     {
-      "key": "Iktv",
-      "name": "🎤音乐KTV",
-      "type": 3,
-      "api": "csp_Iktv",
-      "searchable": 1,
-      "changeable": 0,
-      "jar":"./jar/wx.jar"
-    },
-    {
-      "key": "短剧网",
-      "name": "🌈短剧网",
-      "type": 3,
-      "api": "csp_Duanju5",
-      "jar": "./jar/ok.jar",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "timeout": 10
-    },
+			"key": "短剧",
+			"name": "🌈短剧网",
+			"type": 3,
+			"api": "csp_Duanju",
+			"searchable": 0,
+			"changeable": 1,
+			"ext":"https://www.duanjutv.icu"
+		},
     {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
     {
       "key": "Panta",
@@ -955,7 +946,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.09维护更新🍁🍀",
+      "name": "03.08维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
