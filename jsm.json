@@ -160,36 +160,6 @@
 				"ratio": 1.1
 			}
 		},
-    {
-      "key": "阿里合集",
-      "name": "阿狸┃HJ",
-      "type": 3,
-      "api": "csp_AliShare",
-      "jar": "./jar/ok.jar",
-      "searchable": 1,
-      "changeable": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "token": "file://TV/ali_token.txt",
-        "share": "file://TV/阿里集合.json"
-      },
-      "style": {
-        "type": "list"
-      },
-      "timeout": 30
-    },
-     {
-            "key": "Wodoudou",
-            "name": "阿狸┃TD",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$./lib/wogg.json"
-      },
      {
       "key": "Hdhive",
       "name": "阿狸┃YC",
@@ -201,7 +171,19 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json$$$null$$$1"
       }, 
-    {
+      {
+            "key": "Wodoudou",
+            "name": "阿狸┃TD",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://aliz.lvdoui.top/$$$null$$$1$$$./lib/wogg.json"
+      },
+      {"key":"运输车","name":"阿狸┃SC","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.weixine.link$$$null$$$1$$$./lib/wogg.json"},  
+     {
       "key": "️玩偶歌",
       "name": "阿狸┃OU",
       "type": 3,
@@ -326,8 +308,8 @@
       "changeable": 0
     },
     {"key":"Xpanpan","name":"自营┃XP","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1"},
-    {"key":"运输车","name":"自营┃MY","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.weixine.link$$$null$$$1$$$./lib/wogg.json"}, 
-    {
+   {"key":"Bt0","name":"自营┃BT","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
+   {
       "key": "快看",
       "name": "自营┃KK",
       "type": 3,
