@@ -708,7 +708,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.13维护更新🍁🍀",
+      "name": "03.14维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -744,37 +744,37 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "live.ipv6.local",
+      "name": "live.m3u3",
       "type": 0,
-      "url": "./lib/live.ipv6.txt",
+      "url": "https://raw.gitmirror.com/lxhfans/zby/main/0314.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "live.fan",
+      "name": "live.lvcha",
       "type": 0,
-      "url": "./lib/tvlive.txt",
+      "url": "https://raw.gitmirror.com/lxhfans/lvcha/main/ywb.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "TXT",
+      "name": "live.lvcha1",
       "type": 0,
       "playerType": 1,
-      "url": "./lib/live.txt",
+      "url": "https://raw.gitmirror.com/lxhfans2024/lvcha/main/adult.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
     },
     {
-      "name": "Json",
+      "name": "live.lvcha2",
       "type": 1,
       "playerType": 1,
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+      "url": "https://raw.gitmirror.com/lxhfans2024/lvcha/main/xxzb.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
