@@ -310,6 +310,12 @@
 			"searchable": 1,
 			"ext": "https://www.bdys10.com/$$$null$$$1"
 		},
+    {"key":"Xpanpan","name":"自营┃XP","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "Fangniu4k",
       "name": "自营┃FN",
@@ -319,7 +325,6 @@
       "searchable": 1,
       "changeable": 0
     },
-    {"key":"Xpanpan","name":"自营┃XP","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1"},
     {
       "key": "快看",
       "name": "自营┃KK",
@@ -514,17 +519,12 @@
 			"ext":"https://www.duanjutv.icu"
 		},
     {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
-    {
-      "key": "Panta",
-      "name": "盘TA┃🍭",
-      "type": 3,
-      "api": "csp_Panta",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
-    },
+    	{"key":"Panta","name":"盘TA┃🍭","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {"key":"盘友圈","name":"盘YQ┃🍭","type":3,"api":"csp_Panyq","timeout":60, "ext":"./lib/tokenm.json"},
      {
       "key": "YiSo",
@@ -548,7 +548,12 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
-    {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1"},
+    {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "PanSearch",
       "name": "盘寻┃🍭",
@@ -560,14 +565,12 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
-    {
-      "key": "秒搜",
-      "name": "秒搜┃🍭",
-      "type": 3,
-      "api": "csp_MiaoSou",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
+    {"key":"秒搜","name":"秒搜┃🍭","type":3,"api":"csp_MiaoSou","timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "YunPanOne",
       "name": "云盘┃🍭",
@@ -601,14 +604,12 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
-    {
-      "key": "88Pan",
-      "name": "八八┃🍭",
-      "type": 3,
-      "api": "csp_EightEight",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://662688.xyz"
-    },
+    {"key":"88Pan","name":"八八┃🍭","type":3,"api":"csp_EightEight","timeout":60, "ext":"./lib/tokenm.json$$$https://662688.xyz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "DaPanSo",
       "name": "大盘┃🍭",
@@ -620,65 +621,42 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json$$$https://dapanso.com$$$null"
     },
-    {
-      "key": "混合盘",
-      "name": "混合┃🍭",
-      "type": 3,
-      "api": "csp_HunHePan",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-    {
-      "key": "PikaSo",
-      "name": "皮卡┃🍭",
-      "type": 3,
-      "api": "csp_PikaSo",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://www.pikaso.top/$$$null"
-    },
-   {
-      "key": "UP云搜",
-      "name": "云搜UP┃🍭",
-      "type": 3,
-      "api": "csp_UpYun",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-    {
-      "key": "drpy_js_愛盤搜",
-      "name": "夸克AP┃🍭",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/aipanso.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "Funletu",
-      "name": "夸克QP┃🍭",
-      "type": 3,
-      "api": "csp_Funletu",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-    {
-      "key": "QuarkPanso",
-      "name": "夸克PS┃🍭",
-      "type": 3,
-      "api": "csp_QuarkPanso",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
+    {"key":"混合盘","name":"混合┃🍭","type":3,"api":"csp_HunHePan","timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"PikaSo","name":"皮卡┃🍭","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.pikaso.top/$$$null",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"UP云搜","name":"云搜UP┃🍭","type":3,"api":"csp_UpYun","timeout":30, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		}, 
+    {"key":"drpy_js_愛盤搜","name":"夸克AP┃🍭","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aipanso.js", "quickSearch":1, "changeable":1, "timeout":60,
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"Funletu","name":"夸克QP┃🍭","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"QuarkPanso","name":"夸克PS┃🍭","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "cc1",
       "name": "🍀🍁关注公众号",
@@ -708,7 +686,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.16维护更新🍁🍀",
+      "name": "03.18维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
