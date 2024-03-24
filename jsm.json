@@ -250,17 +250,7 @@
       "ext": "./lib/tokenm.json$$$https://xzyshd.com$$$null$$$1"
     },
     {"key":"团长资源","name":"夸克┃TZ","type":3,"api":"csp_TZFile", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"./lib/tokenm.json$$$null$$$1"},
-    {
-      "key": "Libvio",
-      "name": "夸克┃LB",
-      "type": 3,
-      "api": "csp_Libvio",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://www.libvio.pro$$$null"
-    },
+    {"key":"美剧迷","name":"夸克┃MJ","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60,"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
     {
       "key": "新6V",
       "name": "磁力┃LV",
@@ -310,7 +300,7 @@
 			"searchable": 1,
 			"ext": "https://www.bdys10.com/$$$null$$$1"
 		},
-    {
+     {
       "key": "Fangniu4k",
       "name": "自营┃FN",
       "type": 3,
@@ -554,6 +544,7 @@
 				"ratio": 1.1
 			}
 		},
+    {"key":"YingSo","name":"影搜┃🍭","type":3,"api":"csp_YingSo","timeout":60, "ext":"./lib/tokenm.json"},
     {
       "key": "PanSearch",
       "name": "盘寻┃🍭",
@@ -657,6 +648,30 @@
 				"ratio": 1.1
 			}
 		},
+    {"key":"Clg","name":"磁力G┃🍭","type":3,"api":"csp_Clg","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1"
+ },
+ {
+    "key": "BtSow",
+    "name": "磁力BT┃🍭",
+    "type": 3,
+    "api": "csp_BtSow",
+    "searchable": 1,
+    "changeable": 1,
+    "timeout": 60,
+    "ext": "./lib/tokenm.json$$$null$$$null$$$1"
+    },
+ {
+      "key": "BtSearch",
+      "name": "磁力BS┃🍭",
+      "type": 3,
+      "api": "csp_BtSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable":1,
+      "filterable": 0,
+      "timeout": 60,
+      "ext": "/lib/tokenm.json$$$null$$$null$$$1"
+    },
     {
       "key": "cc1",
       "name": "🍀🍁关注公众号",
@@ -686,7 +701,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.21维护更新🍁🍀",
+      "name": "03.25维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -699,7 +714,7 @@
       "name": "live.m3u",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0321.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0325.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -715,7 +730,7 @@
     {
       "name": "live.m3u2",
       "type": 0,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0319.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0321.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -761,7 +776,7 @@
       "name": "live.lvcha2",
       "type": 1,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/a.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/ty.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
