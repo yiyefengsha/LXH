@@ -93,22 +93,7 @@
       "filterable": 1,
       "ext": "./lib/og/wog.json"
     },
-    {
-      "key": "玩偶OK弹幕版",
-      "name": "玩偶┃OK",
-      "type": 3,
-      "api": "csp_Wogg",
-      "jar": "./jar/ok.jar",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "file://TV/ali_token.txt",
-        "wogg": true,
-        "danmu": true
-      },
-      "timeout": 30
-    },
+    {"key":"yydsys","name":"玩偶┃LG","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://tv.yydsys.top/$$$null$$$1$$$./lib/wogg.json"},
     {
       "key": "玩偶哥哥KX",
       "name": "玩偶┃KX",
@@ -693,7 +678,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.26维护更新🍁🍀",
+      "name": "03.27维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
