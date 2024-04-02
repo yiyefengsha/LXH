@@ -674,16 +674,6 @@
 		},
     {"key":"盘友圈","name":"盘YQ┃🍭","type":3,"api":"csp_Panyq","timeout":60, "ext":"./lib/tokenm.json"},
     {
-      "key": "夸搜",
-      "name": "🐺夸搜┃搜索",
-      "type": 3,
-      "api": "csp_QuarkPanso",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
-    },
-    {
       "key": "YiSo",
       "name": "易搜┃🍭",
       "type": 3,
@@ -714,15 +704,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
-    },
-    {
-      "key": "push_agent",
-      "name": "🛴手机┃推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
     },
     {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
@@ -833,12 +814,17 @@
 				"ratio": 1.1
 			}
 		},
-    {"key":"QuarkPanso","name":"夸克PS┃🍭","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
+      {
+      "key": "夸搜",
+      "name": "夸克PS┃🍭",
+      "type": 3,
+      "api": "csp_QuarkPanso",
+      "jar": "./jar/fan.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
+    },
     {"key":"Clg","name":"磁力G┃🍭","type":3,"api":"csp_Clg","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1"
  },
  {
@@ -862,6 +848,15 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "/lib/tokenm.json$$$null$$$null$$$1"
+    },
+   {
+      "key": "push_agent",
+      "name": "推送┃🍭",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
     },
     {
       "key": "cc1",
@@ -892,7 +887,7 @@
     },
     {
       "key": "cc4",
-      "name": "04.01维护更新🍁🍀",
+      "name": "04.02维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
