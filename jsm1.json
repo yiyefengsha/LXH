@@ -656,13 +656,14 @@
 			"changeable": 0
 		},
     {
-      "key": "Wexvipduanju",
+      "key": "短剧",
       "name": "🌸短剧屋",
       "type": 3,
-      "api": "csp_Wexvipduanju",
-      "jar": "./jar/wex.jar",
+      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/上头短剧.js",
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "changeable": 0
     },
     {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
     	{"key":"Panta","name":"盘TA┃🍭","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
