@@ -849,15 +849,6 @@
       "timeout": 60,
       "ext": "/lib/tokenm.json$$$null$$$null$$$1"
     },
-   {
-      "key": "push_agent",
-      "name": "推送┃🍭",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
-    },
     {
       "key": "cc1",
       "name": "🍀🍁关注公众号",
