@@ -673,6 +673,12 @@
 			}
 		},
     {"key":"盘友圈","name":"盘YQ┃🍭","type":3,"api":"csp_Panyq","timeout":60, "ext":"./lib/tokenm.json"},
+   {"key":"PikaSo","name":"皮卡┃🍭","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.pikaso.top/$$$null",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "YiSo",
       "name": "易搜┃🍭",
@@ -695,31 +701,20 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
     },
-    {
-      "key": "PanSearch",
-      "name": "盘寻┃🍭",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "jar": "./jar/fan.txt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
-    },
-    {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-    {"key":"YingSo","name":"影搜┃🍭","type":3,"api":"csp_YingSo","timeout":60, "ext":"./lib/tokenm.json"},
     {"key":"秒搜","name":"秒搜┃🍭","type":3,"api":"csp_MiaoSou","timeout":60, "ext":"./lib/tokenm.json",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-    {
+    {"key":"YingSo","name":"影搜┃🍭","type":3,"api":"csp_YingSo","timeout":60, "ext":"./lib/tokenm.json"}, 
+    {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+     {
       "key": "YunPanOne",
       "name": "云盘┃🍭",
       "type": 3,
@@ -730,6 +725,17 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
+     {
+      "key": "PanSearch",
+      "name": "盘寻┃🍭",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "jar": "./jar/fan.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
+    }, 
    {
       "key": "Dovx",
       "name": "七夜┃🍭",
@@ -780,12 +786,6 @@
       "ext": "./lib/tokenm.json$$$https://dapanso.com$$$null"
     },
     {"key":"混合盘","name":"混合┃🍭","type":3,"api":"csp_HunHePan","timeout":60, "ext":"./lib/tokenm.json",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-    {"key":"PikaSo","name":"皮卡┃🍭","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.pikaso.top/$$$null",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
