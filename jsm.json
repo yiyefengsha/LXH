@@ -716,7 +716,7 @@
 		},
      {
       "key": "YunPanOne",
-      "name": "云盘┃🍭",
+      "name": "云盘ON┃🍭",
       "type": 3,
       "api": "csp_YunPanOne",
       "quickSearch": 1,
@@ -748,6 +748,39 @@
       "ext": "./lib/tokenm.json"
     },
     {
+      "key": "csp_AliPS",
+      "name": "喵狸┃🍭",
+      "type": 3,
+      "api": "csp_AliPS",
+      "jar": "./jar/custom_spider.jar",    
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+    },
+    {
+      "key": "csp_Upyunso",
+      "name": "盘搜UP┃🍭",
+      "type": 3,
+      "api": "csp_Upyunso",
+      "jar": "./jar/custom_spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+    },
+    {
+      "key": "csp_XYQHikerAL_云盘资源",
+      "name": "云盘┃🍭",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "jar": "./jar/custom_spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/xyq/云盘资源.json"
+    },
+    {
       "key": "Gitcafe",
       "name": "纸条┃🍭",
       "type": 3,
@@ -759,14 +792,15 @@
       "ext": "./lib/tokenm.json"
     },
     {
-      "key": "找資源",
+      "key": "csp_Zhaozy",
       "name": "資源┃🍭",
       "type": 3,
       "api": "csp_Zhaozy",
-      "jar": "./jar/wex.jar",
+      "jar": "./jar/custom_spider.jar",
       "searchable": 1,
-      "changeable": 0,
-      "ext": "影視天下第一$$$test2$$$test2"
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "{\"username\":\"fanty\",\"password\":\"qqq111\",\"searchurl\":\"http://zhaoziyuan.pw/so?filename={wd}\"}"
     },
     {"key":"88Pan","name":"八八┃🍭","type":3,"api":"csp_EightEight","timeout":60, "ext":"./lib/tokenm.json$$$https://662688.xyz",
 			"style": {
@@ -878,7 +912,7 @@
     },
     {
       "key": "cc4",
-      "name": "04.02维护更新🍁🍀",
+      "name": "04.05维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
