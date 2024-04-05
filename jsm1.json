@@ -665,8 +665,7 @@
       "quickSearch": 1,
       "changeable": 0
     },
-    {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
-    	{"key":"Panta","name":"盘TA┃🍭","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
+    {"key":"Panta","name":"盘TA┃🍭","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -715,17 +714,6 @@
 			}
 		},
      {
-      "key": "YunPanOne",
-      "name": "云盘ON┃🍭",
-      "type": 3,
-      "api": "csp_YunPanOne",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-     {
       "key": "PanSearch",
       "name": "盘寻┃🍭",
       "type": 3,
@@ -753,17 +741,6 @@
       "type": 3,
       "api": "csp_AliPS",
       "jar": "./jar/custom_spider.jar",    
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-    },
-    {
-      "key": "csp_Upyunso",
-      "name": "盘搜UP┃🍭",
-      "type": 3,
-      "api": "csp_Upyunso",
-      "jar": "./jar/custom_spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -825,16 +802,16 @@
 				"ratio": 1.1
 			}
 		},
-     {
-      "key": "UpYun",
+    {
+      "key": "csp_Upyunso",
       "name": "云搜UP┃🍭",
       "type": 3,
-      "api": "csp_UpYun",
-      "jar": "./jar/fan.txt",
+      "api": "csp_Upyunso",
+      "jar": "./jar/custom_spider.jar",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd"
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {"key":"drpy_js_愛盤搜","name":"夸克AP┃🍭","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aipanso.js", "quickSearch":1, "changeable":1, "timeout":60,
 			"style": {
@@ -925,7 +902,7 @@
       "name": "live.m3u",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0325.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -933,7 +910,7 @@
       "name": "live.m3u1",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0325.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
