@@ -889,7 +889,7 @@
     },
     {
       "key": "cc4",
-      "name": "04.05维护更新🍁🍀",
+      "name": "04.09维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -902,7 +902,7 @@
       "name": "live.m3u",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0325.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/yt.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -910,7 +910,7 @@
       "name": "live.m3u1",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0325.txt",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -936,7 +936,7 @@
     {
       "name": "live.m3u4",
       "type": 0,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0316.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
