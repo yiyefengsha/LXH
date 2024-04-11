@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "DB",
-      "name": "乐享汇",
+      "name": "乐享汇fans",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -897,6 +897,51 @@
       "filterable": 0
     }
   ],
+  "lives": [
+     {
+      "name": "live.m3u",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/yt.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "live.m3u1",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0325.txt",
+      "ua": "okhttp/3.12.13",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "live.m3u2",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/cy.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "live.m3u3",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/tvkj.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "live.m3u4",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "group": "redirect",
       "channels": [
@@ -1138,15 +1183,6 @@
       ],
       "script": [
         "document.getElementsByClassName('vjs-big-play-button')[0].click()"
-      ]
-    },
-    {
-      "name": "毛驢",
-      "hosts": [
-        "www.maolvys.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
       ]
     }
   ],
